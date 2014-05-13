@@ -8,10 +8,11 @@
 	<title>BK Game Maker</title>
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 	<link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-	<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+<body data-spy="scroll" data-target="#section-link">
+	<header class="navbar navbar-dark navbar-fixed-top" role="navigation">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -21,28 +22,186 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Brand</a>
+	      <a class="navbar-brand" href="#">BKGM</a>
 	    </div>
 	    <!-- Collect the section links -->
 	    <div class="collapse navbar-collapse" id="section-link">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
-	          </ul>
-	        </li>
+	        <li><a href="#about">Chúng tôi</a></li>
+	        <li><a href="#product">Sản phẩm</a></li>
+	        <li><a href="#join">Tham gia</a></li>
+	        <li><a href="#register">Đăng ký</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</header>
-	<div id="titan"></div>
-	<section class="big-land"></section>
+	<section class="row" id="titan" data-type="background" data-speed="10">
+		<div class="super-logo"></div>
+	</section>
+	<section class="big-land row" id="about">
+		<div class="container">
+			<div class="secImg-lg col-sm-5 text-center">
+				<img src="img/us-game.png" alt="Games" />
+			</div>
+			<div class="secContent col-sm-7 text-center">
+				<h2>#Chúng_tôi</h2>
+				<h3>Là câu lạc bộ làm game Bách Khoa (BK Game Maker)</h3>
+			</div>
+		</div>
+	</section>
+	<section class="big-land row" id="us-two" data-type="background" data-speed="10">
+		<div class="container">
+			<div class="secContent col-sm-7 text-center">
+				<h2>#Chúng_tôi</h2>
+				<h3>Hướng tới xây dựng một cộng đồng sinh viên Bách Khoa đam mê công nghệ, đam mê làm game, cùng phát triển kỹ năng, tạo ra những sản phẩm ý nghĩa ngay từ khi còn trên ghế đại học</h3>
+			</div>
+			<div class="secImg-lg col-sm-5 text-center">
+				<i class="fa fa-users fa-6"></i>
+			</div>			
+		</div>
+	</section>
+	<section class="big-land row" id="us-three">
+		<div class="container">
+			<div class="secImg-lg col-sm-5 text-center">
+				<img src="img/us-start.png" alt="Start" />
+			</div>
+			<div class="secContent col-sm-7 text-center">
+				<h2>#Chúng_tôi</h2>
+				<h3>Xây dựng câu lạc bộ dưới sự ủng hộ, cho phép bởi LCĐ Viện CNTT-TT Đại học Bách Khoa HN</h3>
+			</div>
+		</div>
+	</section>
+	<section class="big-land row" id="us-four" data-type="background" data-speed="10">
+		<div class="container">
+			<div class="secContent col-sm-7 text-center">
+				<h2>#Chúng_tôi</h2>
+				<h3>Hoạt động dựa trên nguyên tắc gây lợi đóng góp miễn phí cho cộng đồng, giúp xây dựng cộng đồng làm game BK ngày một vững mạnh</h3>
+			</div>
+			<div class="secImg-lg col-sm-5 text-center">
+				<i class="fa fa-gears fa-6"></i>
+			</div>			
+		</div>
+	</section>
+	<section class="big-land row" id="product">
+		<div class="container">
+			<h2>Sản phẩm</h2>
+			<div class="col-sm-3">
+				<div class="product-item" id="pianoic">
+					<h3>Pianoic</h3>
+					<div class="card-container">
+						<div id="card">
+							<figure class="front"></figure>
+							<figure class="back" id="product-1"></figure>
+						</div>
+					</div>
+					<div class="product-link">
+						<a href="http://pianoic.com/" type="button" class="btn btn-warning btn-grey" title="Website" target="_blank"><i class="fa fa-external-link"></i></a>
+						<a href="https://www.facebook.com/pianoic" type="button" class="btn btn-primary btn-grey" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="product-item" id="slaprat">
+					<h3>Slap Rat</h3>
+					<div class="card-container">
+						<div id="card">
+							<figure class="front"></figure>
+							<figure class="back" id="product-2"></figure>
+						</div>
+					</div>
+					<div class="product-link">
+						<a href="https://apps.facebook.com/slaprat/" type="button" class="btn btn-primary btn-grey" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://play.google.com/store/apps/details?id=com.BKGameMaker.SlapRat" type="button" class="btn btn-success btn-grey" title="PlayStore" target="_blank"><i class="fa fa-android"></i></a>
+						<a href="https://itunes.apple.com/us/app/slap-rat/id831225475?mt=8" type="button" class="btn btn-info btn-grey" title="AppStore" target="_blank"><i class="fa fa-apple"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="product-item" id="whitedrop">
+					<h3>White Drop</h3>
+					<div class="card-container">
+						<div id="card">
+							<figure class="front"></figure>
+							<figure class="back" id="product-3"></figure>
+						</div>
+					</div>
+					<div class="product-link">
+						<a href="https://apps.facebook.com/whitedrop" type="button" class="btn btn-primary btn-grey" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://itunes.apple.com/us/app/white-drop/id838094757?mt=8" type="button" class="btn btn-info btn-grey" title="AppStore" target="_blank"><i class="fa fa-apple"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="product-item" id="othergame">
+					<h3>Other</h3>
+					<div class="card-container">
+						<div id="card">
+							<figure class="front"></figure>
+							<figure class="back" id="product-4"></figure>
+						</div>
+					</div>
+					<div class="product-link">
+						<a href="http://game.bkgamemaker.com/" type="button" class="btn btn-warning btn-grey" title="Website" target="_blank"><i class="fa fa-external-link"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="big-land row" id="talk" data-type="background" data-speed="10">
+		<div class="container">
+			<h2>Họ nói gì về chúng tôi?</h2>
+			<div class="col-sm-9">
+				<blockquote>
+					<p>Dù là một cộng đồng làm game còn non trẻ nhưng các thành viên trong nhóm vẫn đang từng ngày say mê với những sáng tạo, tìm kiếm những công nghệ mới để cho ra đời những sản phẩm chất lượng phục vụ cộng đồng.</p>
+					<footer class="pull-right"><a href="http://www.tin247.com/sinh_vien_bach_khoa_tiep_tuc_hot_voi_game_slap_rat-4-22777355.html">Sinh viên Bách Khoa tiếp tục hot với game Slap Rat</a></footer>
+				</blockquote>
+			</div>
+		</div>
+	</section>
+	<section class="big-land row" id="join">
+		<div class="container">
+			<h2>Tham gia với chúng tôi, bạn sẽ</h2>
+			<div class="col-sm-4 text-center">
+				<i class="fa fa-check-square-o fa-6"></i>
+			</div>
+			<div class="col-sm-8">
+				<ul>
+					<li>Hưởng các lợi ích vật chất, tinh thần do CLB tạo ra.</li>
+					<li>Trao đổi chia sẻ kinh nghiệm, kiến thức với các thành viên khác.</li>
+					<li>Bình đẳng về nghĩa vụ và quyền lợi theo quy chế của CLB.</li>
+					<li>Tham gia tất cả các hoạt động của CLB.</li>
+					<li>Tham gia ứng cử và bầu cử vào Ban chủ nhiệm CLB.</li>
+					<li>Phát triển kiến thức và kỹ năng trong lĩnh vực của mình và CLB.</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="big-land row" id="register" data-type="background" data-speed="10">
+		<div class="container">
+			<h2>Đăng ký thôi, chờ gì nữa?</h2>
+			<div class="col-sm-8">
+				<h3>Hoạt động:</h3>
+				<dl class="dl-horizontal activity">
+				  <dt>22/5/2014</dt><dd>Lễ ra mắt</dd>
+				  <dt>06/2014</dt><dd>Tuyển thành viên</dd>
+				  <dt>06-08/2014</dt><dd>Triển khai đào tạo thành viên mới</dd>
+				</dl>
+			</div>
+			<div class="col-sm-4">
+				<h3>Liên hệ:</h3>
+				<ul class="social-link">
+					<li><a href="mailto:bkgamemaker@gmail.com"><i class="fa fa-envelope"></i> Email</a></li>
+					<li><a href="https://www.facebook.com/BKGameMaker"><i class="fa fa-facebook"></i> Facebook</a></li>
+					<li><a href="http://bkgamemaker.com"><i class="fa fa-external-link"></i> Trang chủ</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer id="colophon" class="row">
+		<div class="container">
+			<p class="text-center">BKGM © 2014</p>
+		</div>
+	</footer>
 	<!-- Scripting -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
