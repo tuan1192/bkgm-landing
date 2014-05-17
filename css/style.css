@@ -12,8 +12,8 @@ html, body
 
 /*	Navbar and Header	*/
 .navbar-dark {
-	background-color: #222;
-	border-color: #292929;
+	background-color: rgba(22,22,22,0.6);
+	border-color: #353535;
 }
 .navbar-dark .navbar-brand {
 	color: #eee;
@@ -29,10 +29,10 @@ html, body
 }
 .nav>li>a:hover, .nav>li>a:focus {
 	text-decoration: none;
-	background-color: #000;
+	background-color: rgba(0,0,0,0.6);
 }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
-	background-color: #000;
+	background-color: rgba(0,0,0,0.6);
 }
 #section-link { 
 	text-transform: uppercase;
@@ -93,7 +93,7 @@ html, body
 	font-size: 60px;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin: -50px 0 10px 10px;
+	margin: -10px 0 10px 10px;
 }
 .product-red h3 { color: #c0392b !important; }
 .product-green h3 { color: #27ae60 !important; }
@@ -224,7 +224,7 @@ html, body
 	font-size: 30px;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin: -50px 0 30px 10px;
+	margin: -10px 0 30px 10px;
 	border-bottom: 1px solid #999;
 	padding-bottom: 5px;
 }
@@ -247,7 +247,7 @@ html, body
 	font-size: 30px;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin: -50px 0 30px 10px;
+	margin: -10px 0 30px 10px;
 	text-align: center;
 }
 #join ul {
@@ -256,15 +256,16 @@ html, body
 }
 /*	Section Register	*/
 #register {
-	background: url(../img/register.jpg) 0 0 repeat fixed #222;
+	background: url(../img/registerbg.jpg) 0 0 repeat fixed #222;
 	color: #fff;
+	min-height: 100%;
 }
 #register h2 {
 	color: #eee;
 	font-size: 30px;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin: -50px 0 30px 10px;
+	margin: -10px 0 30px 10px;
 	border-bottom: 1px solid #eee;
 	padding-bottom: 5px;
 }
