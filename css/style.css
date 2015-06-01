@@ -19,7 +19,7 @@ html, body
 	color: #eee;
 }
 .navbar-brand {
-	background: url(../img/logo-sm.png) 0 center no-repeat transparent;
+	background: url(../img/logo-sm-2b.png) 0 center no-repeat transparent;
 	padding-left: 32px;
 	margin-left: 10px !important;
 	font-family: 'Open Sans', sans-serif;
@@ -44,7 +44,7 @@ html, body
 	background: url(../img/titan.jpg) 50% 0 repeat fixed #333;
 }
 #titan .super-logo {
-	background: url(../img/logo-bg.png) center center no-repeat transparent;
+	background: url(../img/logo-bg-2.png) center center no-repeat transparent;
 	width: 300px;
 	height: 300px;
 	position: absolute;
@@ -91,7 +91,7 @@ html, body
 #product h2 {
 	color: #ccc;
 	font-size: 60px;
-	font-weight: 800;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin: -10px 0 10px 10px;
 }
@@ -180,7 +180,7 @@ html, body
 	backface-visibility: hidden;
 }
 #card .front {
-	background: url(../img/product.png) 0 0 no-repeat transparent;
+	background: url(../img/product-2.png) 0 0 no-repeat transparent;
 }
 #card .back {	
 	-webkit-transform: rotateY( 180deg );
@@ -222,7 +222,7 @@ html, body
 #talk h2 {
 	color: #999;
 	font-size: 30px;
-	font-weight: 800;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin: -10px 0 30px 10px;
 	border-bottom: 1px solid #999;
@@ -245,7 +245,7 @@ html, body
 #join h2 {
 	color: #eee;
 	font-size: 30px;
-	font-weight: 800;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin: -10px 0 30px 10px;
 	text-align: center;
@@ -263,7 +263,7 @@ html, body
 #register h2 {
 	color: #eee;
 	font-size: 30px;
-	font-weight: 800;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin: -10px 0 30px 10px;
 	border-bottom: 1px solid #eee;
@@ -310,7 +310,7 @@ html, body
 #members h2{
 	color: #FCFCFC;
 	font-size: 30px;
-	font-weight: 800;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin: -10px 0 30px 10px;
 	border-bottom: 1px solid #FCFCFC;
